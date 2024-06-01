@@ -98,7 +98,7 @@ export default {
             clearTimeout(this.debounce);
             this.debounce = setTimeout(()=>{
                 this.getCharacters('https://rickandmortyapi.com/api/character');
-            }, 750);
+            }, 1000);
             
         }
         
